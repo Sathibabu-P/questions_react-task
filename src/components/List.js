@@ -25,8 +25,7 @@ const List = (props) => {
 
   useEffect(() => {
     getQuestions(key)
-  }, [offset])
-
+  }, [offset,key])
 
   const requestSort = key => {
    setKey(key)
