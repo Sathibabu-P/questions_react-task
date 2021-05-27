@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: `https://import-task.herokuapp.com/`,
+  baseURL: `https://import-task.herokuapp.com/api/v1/`,
   headers: {
     "Content-Type": "application/json",
     "Accept": "application/json"
